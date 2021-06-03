@@ -27,13 +27,14 @@
                     @auth
                         <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                        <a href="{{ route('login') }}" class="text-mm text-gray-900 underline">Log in</a>
                     @endauth
                 </div>
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                       <h1>Phone Manager Test App</h1>        
+                       <h1>Phone Manager Test App</h1> 
+                       <p>Please login to start your session</p>    
             </div>
         </div>
     </body>
