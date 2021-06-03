@@ -12,7 +12,7 @@
 
 <!-- Brand Id Field -->
 <div class="col-sm-12">
-    {!! Form::label('brand_id', 'Brand Id:') !!}
-    <p>{{ $product->brand_id }}</p>
+    {!! Form::label('brand_id', 'Brand:') !!}
+    <p>{{ $product->brand->name }}</p>
 </div>
 
